@@ -39,7 +39,7 @@ google_analytics: ''
 favicon: /favicon.png
 
 #你的头像url
-avatar: /img/wuchong.png
+avatar: img/wuchong.png
 #是否开启分享
 share_jia: false
 share_addthis: false

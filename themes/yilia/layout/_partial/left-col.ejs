@@ -3,9 +3,9 @@
 	<header id="header" class="inner">
 		<a href="/" class="profilepic">
 			<% if (theme.animate){ %>
-			<img lazy-src="<%=theme.avatar%>" class="js-avatar">
+			<img lazy-src="<%=theme.root + theme.avatar%>" class="js-avatar">
 			<%}else{%>
-			<img src="<%=theme.avatar%>" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
+			<img src="<%=theme.root + theme.avatar%>" class="js-avatar" style="width: 100%;height: 100%;opacity: 1;">
 			<%}%>
 		</a>
 
@@ -102,11 +102,7 @@
 				<%}else{%>
 				<section class="switch-part switch-part4">
 				<%}%>
-					<ul id="js-aboutme">
-						<li>公司:&nbsp;<a href="<%=theme.companysite%>"><%=theme.company%></a></li>
-						<li>微信:&nbsp;<%=theme.wechat%></li>
-						<li>邮箱:&nbsp;<a href="mailto:<%=theme.mail%>"><%=theme.mail%></a></li>
-					</ul>
+					<div id="js-aboutme"><%=theme.aboutme%></div>
 				</section>
 				<%}%>
 			</div>
