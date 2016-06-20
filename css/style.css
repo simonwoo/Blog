@@ -852,7 +852,7 @@ a {
   font-size: 12px;
 }
 .body-wrap {
-  margin-bottom: 80px;
+  margin-bottom: 0;
 }
 .article {
   margin: 30px;
